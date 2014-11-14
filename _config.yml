@@ -1,29 +1,31 @@
 # Header
 menu:
-  首页: /
-  归档: /archives
+  home: /
+  about: /about
+  contact: /contact
 
 # Content
 excerpt_link: ...
-fancybox: false
+fancybox: true
 
 # Sidebar
-sidebar: 
+sidebar: right
 widgets:
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
 - links
+- category
+- tagcloud
 
 # Links
 links:
+  about.me: http://about.me/mitchitized/
+  linkedin: http://linkedin.com/in/mitchpirtle/
+  bowery: http://bowery.io/
+  slideshare: http://www.slideshare.net/spacemonkeylabs
 
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
+twitter: mitchitized
 google_plus:
 fb_admins: 
 fb_app_id:
@@ -39,5 +41,5 @@ scrollUp: image
 
 # social
 social:
-  github: https://github.com/henryhuang
-  weibo: http://weibo.com/626242034
+  github: https://github.com/spacemonkey
+  weibo:
